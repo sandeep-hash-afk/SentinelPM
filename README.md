@@ -1,6 +1,6 @@
 # SentinelPM — Predictive Maintenance Intelligence
 
-SentinelPM is a production-ready predictive maintenance intelligence service, prioritizing reliability and explainability over black-box .
+SentinelPM is a production-ready predictive maintenance intelligence service, prioritizing reliability and explainability over black-box models .
 
 # Problem
 Unplanned equipment failures cause:
