@@ -2,6 +2,13 @@
 
 SentinelPM is a production-ready predictive maintenance intelligence service, prioritizing reliability and explainability over black-box models .
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat-square&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100-teal?style=flat-square&logo=fastapi)
+![Docker](https://img.shields.io/badge/Docker-ready-blue?style=flat-square&logo=docker)
+![CI](https://img.shields.io/badge/CI-passing-brightgreen?style=flat-square&logo=githubactions)
+![Render](https://img.shields.io/badge/Deployed-Render-purple?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+
 ## 🌐 Live Demo
 
 SentinelPM is deployed and publicly accessible:
