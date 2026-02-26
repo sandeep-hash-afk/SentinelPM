@@ -89,3 +89,11 @@ Excluded (intentionally):
 -	User authentication
 -	Streaming ingestion
 -	Automated retraining
+
+## ⚠️ Limitations & Usage Notes
+
+- This service is a decision-support tool, not an automated control system.
+- Outputs are recommendations and should be reviewed by qualified personnel.
+- The public demo runs on a free tier and may experience cold starts.
+- Rate limits are enforced to prevent abuse.
+- The system intentionally avoids exposing raw scores in external responses.
