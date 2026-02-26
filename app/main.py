@@ -44,9 +44,13 @@ async def log_requests(request: Request, call_next):
     return response
 
 
-@app.get("/health")
-def health_check():
-    return {"status": "ok"}
+@app.get("/")
+def root():
+    return {
+        "service": "SentinelPM",
+        "status": "running",
+        "docs": "/docs"
+    }
 
 @app.post("/predict")
 def predict(data: SensorInput):
