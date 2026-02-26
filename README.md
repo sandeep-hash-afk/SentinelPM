@@ -2,6 +2,19 @@
 
 SentinelPM is a production-ready predictive maintenance intelligence service, prioritizing reliability and explainability over black-box models .
 
+## 🌐 Live Demo
+
+SentinelPM is deployed and publicly accessible:
+
+**Base URL:**  
+https://sentinelpm.onrender.com/
+
+**Interactive API Docs:**  
+https://sentinelpm.onrender.com/docs
+
+**Health Check:**  
+https://sentinelpm.onrender.com/health
+
 # Problem
 Unplanned equipment failures cause:
 -	Costly downtime
