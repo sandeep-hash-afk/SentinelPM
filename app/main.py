@@ -52,6 +52,10 @@ def root():
         "docs": "/docs"
     }
 
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
+
 @app.post("/predict")
 def predict(data: SensorInput):
     result = predict_health(
@@ -71,7 +75,7 @@ def predict(data: SensorInput):
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request, exc):
     logger.warning(
-        "Validation failed",
+        "Validation Failed",
         extra={
             "endpoint": request.url.path,
             "error_count": len(exc.errors())
